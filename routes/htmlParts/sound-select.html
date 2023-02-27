@@ -1,0 +1,36 @@
+<div class="mb-3 mt-3">
+    <label for="modal-select-audio" class="form-label">Sound</label>
+    <div class="input-group">
+        <select class="form-select" id="modal-select-audio" aria-label="modal select audio">
+            <option>Childhood</option>
+            <option>Christmas</option>
+            <option>Church Bell</option>
+            <option>Cricket</option>
+            <option>Happy Birthday</option>
+            <option>Organ</option>
+            <option>Phone Bell - I</option>
+            <option>Phone Bell - II</option>
+            <option>Piano</option>
+            <option>Pizzicato</option>
+            <option>Police Siren</option>
+            <option>School Bell</option>
+            <option>Xylophone - I</option>
+            <option>Xylophone - II</option>
+        </select>
+        <button class="btn btn-outline-secondary" id="btn-audio-play-pause" type="button">
+            <i class="bi bi-play-fill" id="icon-audio-play" role="img" aria-label="play audio"></i>
+            <i class="bi bi-pause-fill" id="icon-audio-pause" role="img" aria-label="pause audio" style="display:none"></i>
+        </button>
+        <button class="btn btn-outline-secondary" id="btn-local-file-audio" type="button">
+            <i class="bi bi-three-dots" role="img" aria-label="select local audio"></i>
+        </button>
+        <button class="btn btn-outline-secondary" id="btn-loop-true-false" type="button">
+            <i class="bi bi-repeat" id="icon-loop-true" role="img" aria-label="loop play true" style="display:none"></i>
+            <i class="bi bi-repeat-1" id="icon-loop-false" role="img" aria-label="loop play false"></i>
+        </button>
+    </div>
+    <div class="progress mt-2">
+        <div class="progress-bar bg-primary" id="audio-progress" role="progressbar" aria-label="audio progress bar" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+</div>
